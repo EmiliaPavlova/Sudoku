@@ -1,0 +1,86 @@
+.text-field {
+    -fx-alignment: center;
+    -fx-font-size: 18px;
+    -fx-text-fill: #000;
+    -fx-border-color: #D3D3D3;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+}
+
+.fixed-cell {
+    -fx-background-color: #e0e0e0;
+    -fx-text-fill: #000;
+    -fx-border-color: #D3D3D3;
+}
+
+.error-cell {
+    -fx-background-color: #fdd;
+    -fx-border-color: transparent;
+    -fx-text-fill: #FF0000 ;
+}
+
+.hint-cell {
+    -fx-background-color: #e0f7fa;
+    -fx-font-weight: bold;
+}
+
+.border-top {
+    -fx-border-style: solid;
+    -fx-border-width: 2 0 0 0;
+    -fx-border-color: #A9A9A9 transparent transparent transparent;
+}
+
+.border-left {
+    -fx-border-style: solid;
+    -fx-border-width: 0 0 0 2;
+    -fx-border-color: transparent transparent transparent #A9A9A9;
+}
+
+.border-right {
+    -fx-border-style: solid;
+    -fx-border-width: 0 2 0 0;
+    -fx-border-color: transparent #A9A9A9 transparent transparent;
+}
+
+.border-bottom {
+    -fx-border-style: solid;
+    -fx-border-width: 0 0 2 0;
+    -fx-border-color: transparent transparent #A9A9A9 transparent;
+}
+
+.border-top-left {
+    -fx-border-style: solid;
+    -fx-border-width: 2 0 0 2;
+    -fx-border-color: #A9A9A9 transparent transparent #A9A9A9;
+}
+
+.border-top-right {
+    -fx-border-style: solid;
+    -fx-border-width: 2 2 0 0;
+    -fx-border-color: #A9A9A9 #A9A9A9 transparent transparent;
+}
+
+.border-bottom-left {
+    -fx-border-style: solid;
+    -fx-border-width: 0 0 2 2;
+    -fx-border-color: transparent transparent #A9A9A9 #A9A9A9;
+}
+
+.border-bottom-right {
+    -fx-border-style: solid;
+    -fx-border-width: 0 2 2 0;
+    -fx-border-color: transparent #A9A9A9 #A9A9A9 transparent;
+}
+
+.button {
+    -fx-background-color: darkgrey;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+    -fx-padding: 8 15;
+}
+
+.timer-label {
+    -fx-font-size: 16px;
+}
